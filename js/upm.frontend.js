@@ -264,6 +264,9 @@ class UPMFrontend {
       case 'Debian':
         distri_icon = '<span class="fl-debian"></span>';
         break;
+      case 'Alpine Linux':
+        distri_icon = '<span class="fl-alpine"></span>';
+        break;
       default:
         distri_icon = '<span class="fl-tux"></span>';
         break;
