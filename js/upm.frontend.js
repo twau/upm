@@ -635,7 +635,7 @@ class UPMFrontend {
     var year = EOLDate.getFullYear();
     var month = EOLDate.getMonth()+1;
     var day = EOLDate.getDate();
-    var EOLSTR = ('00'+day).slice(-2) + "." + ('00'+month).slice(-2) + "." + year;
+    var EOLSTR = year + "." + ('00'+month).slice(-2) + "." + ('00'+day).slice(-2);
     return EOLSTR;
   }
 
